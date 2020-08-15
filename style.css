@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 500px;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  border: brown solid 1px;
+}
+.box {
+  flex: 1;
+  background-color: aquamarine;
+  padding: 20px;
+  margin: 2px;
+  height: 300px;
+}
+.box > span {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
